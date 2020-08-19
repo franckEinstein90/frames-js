@@ -1,0 +1,24 @@
+{
+  "name": "comic-frames",
+  "version": "1.0.0",
+  "description": "Creates comic-like framings for web pages",
+  "main": "app.js",
+
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+	"buildClient": "browserify ./src/client/main.js -o ./docs/bundle.js",
+    	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franckEinstein90/comic-frames-js.git"
+  },
+  "author": "Franck Binard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franckEinstein90/comic-frames-js/issues"
+  },
+  "homepage": "https://github.com/franckEinstein90/comic-frames-js#readme"
+}
