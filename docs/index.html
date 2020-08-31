@@ -9,27 +9,34 @@
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Yeon+Sung&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Frijole&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+        <link rel="stylesheet" href="css/styles.css" type="text/css"/>
     </head>
     
     <body>
-        <div id="page" 
-             data-formats='{
-                "wide": {"width": 3000, "height":1600, "cols":5, "rows":4}, 
+
+        <div id='topNav' style="z-index:30;text-align:center"> 
+            <p>current client area: </p>
+            <p>width  <button>increase</button><button>decrease</button></p>
+            <p>height <button>increase</button><button>decrease</button></p>
+        </div>
+
+        <div id="content" data-formats='{
+                "xWide" : { "width":3600, "height":1600, "cols":6, "rows":4},
+                "wide": {"width": 3000, "height":1600, "cols":5, "rows":4},
                 "normal":   {"width": 2400, "height":1600, "cols":4, "rows":4}, 
                 "tablet": {"width":1200, "height":1600, "cols":2, "rows":4}
-        }'>
-        
+            }'>
+
+
+
         </div>
-        <div id='topNav' style="z-index:30;text-align:center"> </div>
-        <div id='bottomNav'> </div>
         
-   
         
+
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
-    
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
         crossorigin="anonymous"></script>

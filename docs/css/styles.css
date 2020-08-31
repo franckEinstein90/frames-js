@@ -1,0 +1,42 @@
+
+body {
+    background-color: black; 
+     -ms-overflow-style: none;
+    margin:0; 
+} 
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#topNav {
+    height:75px; 
+    padding-top:10px;
+    padding-bottom:10px; 
+    position:absolute; 
+    background-color: rgba(240, 20, 110, 0.3); 
+    color: white; 
+    left: 0; 
+    top: 0;
+    width: 100%; 
+    display:flex;
+    z-index:30; 
+}
+
+#topNav A{
+    color: white;  
+    font-family: 'Baloo Chettan 2'; 
+    font-size: 1.5em; 
+    padding-left: 20px;
+}
+    
+#content{
+    position: absolute; 
+    background-color: white;  
+    color:black; 
+    top:90px; 
+    left: 200px; 
+    width: 400px;  
+    height:300px; 
+    z-index:4;
+}

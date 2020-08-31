@@ -1,3 +1,14 @@
+Reactive framework such as Angular or bootstrap are not precise enough for some
+types of content such as comic books, in which different screen sizes and orientation
+can dramatically alter the flow and readability of the story.  
+
+FramesJS let's you precisely define different views for different 
+screen types and then figures how to best render your site or page 
+for any possible screen size or resolution.
+
+check out the demo
+
+
 # thegrid
 
 This is a repository for an idea for a game I had. I'm not sure when I'll be able to earnestly work on it, but I wanted to put down the idea somewhere before it slips away. 
